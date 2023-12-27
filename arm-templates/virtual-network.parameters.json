@@ -1,0 +1,22 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "virtualNetworkName": {
+        "value": "virtualNetwork1"
+      },
+      "location": {
+        "value": "UK South"
+      },
+      "addressPrefix": {
+        "value": "10.0.0.0/16"
+      },
+      "subnetName": {
+        "value": "subNet1"
+      },
+      "subnetPrefix": {
+        "value": "10.0.0.0/24"
+      }
+    }
+  }
+  
